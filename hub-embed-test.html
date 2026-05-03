@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hub Embed Test</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400&display=swap" rel="stylesheet" />
+
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #0a0a0f;
+      color: #e8e3d8;
+      font-family: 'DM Sans', sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    header {
+      padding: 14px 32px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      background: #0a0a0f;
+      font-size: 0.82rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #c9a84c;
+      flex-shrink: 0;
+    }
+
+    .embed-area {
+      flex: 1;
+      width: 100%;
+      overflow-y: auto;
+    }
+  </style>
+
+</head>
+<body>
+
+  <header>Welcome to custom webpage for embed testing</header>
+
+  <div class="embed-area">
+
+    <!-- GOLDCAST HUB EMBED -->
+    <div id="page-0ba328ea-cc2c-4aba-a2fb-2118d7b79236" style="aspect-ratio: 4 / 2.3; width: 100%;"></div>
+    <script src="https://eventhub.registration.goldcast.io/page-embedscript/0ba328ea-cc2c-4aba-a2fb-2118d7b79236"></script>
+    <!-- END GOLDCAST HUB EMBED -->
+
+  </div>
+
+</body>
+</html>
